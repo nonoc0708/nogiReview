@@ -40,6 +40,14 @@ strong{
     padding-left : 25px;                
 }
 
+#foot_area{
+    font-size : 11px;
+    border-top : 1px solid gray;
+    padding-top : 10px;   
+    padding-bottom : 10px;      
+    border-bottom : 1px solid gray;       
+}
+
 @media(max-width:800px)
 {
     #grid{
