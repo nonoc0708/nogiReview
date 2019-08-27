@@ -3,15 +3,27 @@ body{
     background-color : rgb(248, 244, 244);
 }
 a{
-    color:black;
+    color : black;
     text-decoration: none;
 }
-h1{
+
+#title_tag{
+    color : white;    
+}
+
+h1{    
     font-size : 3rem;
+    color : black;
     text-align: center;
     border-bottom: 1px solid gray;
     margin : 0px;
-    padding : 10px;
+    padding : 10px;    
+}
+
+#title{
+    position: absolute;   
+    top : 5px;
+    margin-bottom : 5px;      
 }
 
 h5{
@@ -24,14 +36,29 @@ h3{
     padding : 0px;
 }
 
-ol{
+ul{
     border-right : 1px solid gray;                
     margin : 0px;
-    padding : 20px;               
+    padding : 20px;             
+}
+
+li:hover{
+    transform:scale(1.1);
+    transform-origin: center;
+    transition: all 1s;    
+}
+
+.category-space:hover{
+    color : rgb(243, 234, 239);
+    font-weight : bold;   
 }
 
 strong{
     color : rgb(0, 0, 128);
+}
+
+.list-space{
+    margin-bottom : 10px;   
 }
 
 #grid{
@@ -44,7 +71,7 @@ strong{
 }
 
 #grid #article{
-    padding-left : 25px;                
+    padding-left : 25px;             
 }
 
 #foot_area{
@@ -64,6 +91,11 @@ strong{
     margin-top : 20px;
 	padding-left: 10px;
 	padding-top: 10px
+}
+
+#category{
+    margin-left:5px;
+    background: linear-gradient(rgb(87, 87, 141), rgb(30, 30, 49));
 }
 
 @media(max-width:800px)
